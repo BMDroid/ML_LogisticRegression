@@ -22,12 +22,12 @@ Use the Matlab we can easily visualize the data.
 
 and the sigmoid function is as following:
 
-<p align="center">  <img src="https://github.com/BMDroid/ML_LogisticRegression/blob/master/figs/sigmoid.png" width="20%">
+<p align="center">  <img src="https://github.com/BMDroid/ML_LogisticRegression/blob/master/figs/sigmoid.png" width="15%">
 </p> 
 
 and our prediction h_theta:
 
-<p align="center">  <img src="https://github.com/BMDroid/ML_LogisticRegression/blob/master/figs/h_theta.png" width="20%">
+<p align="center">  <img src="https://github.com/BMDroid/ML_LogisticRegression/blob/master/figs/h_theta.png" width="15%">
 </p> 
 
 **Second,** we define our cost function and gradient.
@@ -43,7 +43,7 @@ Here, we use a different approach, because in the logistic regression the classi
 
 And our objective is to minimize the cost function, and we have the gradient :
 
-<p align="center">  <img src="https://github.com/BMDroid/ML_LogisticRegression/blob/master/figs/gradient.png" width="35%">
+<p align="center">  <img src="https://github.com/BMDroid/ML_LogisticRegression/blob/master/figs/gradient.png" width="30%">
 </p> 
 
 ### 4. Training
@@ -63,7 +63,7 @@ After learning the parameters, we can use the model to predict the result. And i
 
 The regularized logistic regression is simply adding the regularized part to the cost function, and the regularized cost function is:
 
-<p align="center">  <img src="https://github.com/BMDroid/ML_LogisticRegression/blob/master/figs/J_r.png" width="55%">
+<p align="center">  <img src="https://github.com/BMDroid/ML_LogisticRegression/blob/master/figs/J_r.png" width="60%">
 </p> 
 
 But for the gradient part, we should not regularized the theta0. 
