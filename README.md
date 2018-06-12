@@ -22,19 +22,19 @@ Use the Matlab we can easily visualize the data.
 
 and the sigmoid function is as following:
 
-<p align="center">  <img src="https://github.com/BMDroid/ML_LogisticRegression/blob/master/figs/sigmoid.png" width="35%">
+<p align="center">  <img src="https://github.com/BMDroid/ML_LogisticRegression/blob/master/figs/sigmoid.png" width="20%">
 </p> 
 
 and our prediction h_theta:
 
-<p align="center">  <img src="https://github.com/BMDroid/ML_LogisticRegression/blob/master/figs/h_theta.png" width="35%">
+<p align="center">  <img src="https://github.com/BMDroid/ML_LogisticRegression/blob/master/figs/h_theta.png" width="20%">
 </p> 
 
 **Second,** we define our cost function and gradient.
 
 The cost function is:
 
-<p align="center">  <img src="https://github.com/BMDroid/ML_LogisticRegression/blob/master/figs/J.png" width="35%">
+<p align="center">  <img src="https://github.com/BMDroid/ML_LogisticRegression/blob/master/figs/cost_func.png" width="35%">
 </p> 
 
 The cost function of the logistic regression is slightly different from the cost function of linear regression which is the summation of all squared error.
@@ -54,7 +54,7 @@ When we train the logistic regression, we prefer to use the built-in function in
 
 After learning the parameters, we can use the model to predict the result. And it can be showed in following fig:
 
-<p align="center">  <img src="https://github.com/BMDroid/ML_LogisticRegression/blob/master/figs/results.png" width="35%">
+<p align="center">  <img src="https://github.com/BMDroid/ML_LogisticRegression/blob/master/figs/results.png" width="50%">
 </p> 
 
 ---
@@ -63,7 +63,7 @@ After learning the parameters, we can use the model to predict the result. And i
 
 The regularized logistic regression is simply adding the regularized part to the cost function, and the regularized cost function is:
 
-<p align="center">  <img src="https://github.com/BMDroid/ML_LogisticRegression/blob/master/figs/J_r.png" width="35%">
+<p align="center">  <img src="https://github.com/BMDroid/ML_LogisticRegression/blob/master/figs/J_r.png" width="50%">
 </p> 
 
 But for the gradient part, we should not regularized the theta0. 
