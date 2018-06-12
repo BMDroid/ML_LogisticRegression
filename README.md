@@ -34,7 +34,7 @@ and our prediction h_theta:
 
 The cost function is:
 
-<p align="center">  <img src="https://github.com/BMDroid/ML_LogisticRegression/blob/master/figs/cost_func.png" width="35%">
+<p align="center">  <img src="https://github.com/BMDroid/ML_LogisticRegression/blob/master/figs/cost_func.png" width="45%">
 </p> 
 
 The cost function of the logistic regression is slightly different from the cost function of linear regression which is the summation of all squared error.
@@ -63,15 +63,15 @@ After learning the parameters, we can use the model to predict the result. And i
 
 The regularized logistic regression is simply adding the regularized part to the cost function, and the regularized cost function is:
 
-<p align="center">  <img src="https://github.com/BMDroid/ML_LogisticRegression/blob/master/figs/J_r.png" width="50%">
+<p align="center">  <img src="https://github.com/BMDroid/ML_LogisticRegression/blob/master/figs/J_r.png" width="55%">
 </p> 
 
 But for the gradient part, we should not regularized the theta0. 
 
 Thus the gradient are:
 
-<p align="center">  <img src="https://github.com/BMDroid/ML_LogisticRegression/blob/master/figs/g_r_0.png" width="35%">
+<p align="center">  <img src="https://github.com/BMDroid/ML_LogisticRegression/blob/master/figs/g_r_0.png" width="45%">
 </p> 
 
-<p align="center">  <img src="https://github.com/BMDroid/ML_LogisticRegression/blob/master/figs/g_r_1.png" width="35%">
+<p align="center">  <img src="https://github.com/BMDroid/ML_LogisticRegression/blob/master/figs/g_r_1.png" width="45%">
 </p> 
